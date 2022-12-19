@@ -1,0 +1,14 @@
+[package]
+name = "twobombs"
+version = "0.1.0"
+authors = ["Will Page <compenguy@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+log = { version = "0.4", default-features = true, features = ["std"] }
+flexi_logger = "0.24"
+anyhow = "1"
+thiserror = "1"
+tempdir = "0.3"
+clap = "2.33"
+crossterm = "0.25"
